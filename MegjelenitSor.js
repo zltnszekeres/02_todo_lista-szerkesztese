@@ -30,7 +30,7 @@ class MegjelenitSor {
             this.megseElem.css("display", "none");
         });
         this.torolElem.on("click", () => {
-            //this.sorElem.remove();
+            this.sorElem.remove();
 
             this.#esemenyTrigger();
         });
