@@ -10,11 +10,7 @@ class Megjelenit {
         this.tablaElem = szuloElem.children("table");
 
         this.tablazatbaIr();
-        $(window).on("torles", (event) => {
-            console.log(event.detail);
-            this.#list.splice(event.detail, 1);
-            console.log(this.#list);
-        });
+
     }
     tablazatbaIr() {
         for (let index = 0; index < this.#list.length; index++) {
